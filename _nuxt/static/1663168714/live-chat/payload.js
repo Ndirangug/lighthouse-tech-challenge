@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/live-chat", {data:[{}],fetch:{},mutations:void 0});
