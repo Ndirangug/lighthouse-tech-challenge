@@ -14,7 +14,7 @@
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix && npm run lint:style -- --fix",
     "prepare": "husky install",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=main --cleanup"
+    "deploy": "push-dir --dir=dist --branch=deploy --cleanup"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --cache",
