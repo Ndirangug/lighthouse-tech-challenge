@@ -2,9 +2,10 @@
   <div class="container">
     <CThemeProvider>
       <CColorModeProvider>
-        <CBox font-family="body" as="main">
+        <CBox font-family="body" as="main" background="#303032">
           <CReset />
           <Nuxt />
+          <bottom-navigation />
         </CBox>
       </CColorModeProvider>
     </CThemeProvider>

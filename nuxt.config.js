@@ -41,7 +41,19 @@ export default {
     // https://go.nuxtjs.dev/emotion
     '@nuxtjs/emotion',
   ],
-
+  /**
+   * Add extend the plugin options under the `chakra` key.
+   **/
+  chakra: {
+    extendTheme: {
+      colors: {
+        brand: {
+          lightText: '#A3A3A5',
+          gold: '#E2B65B',
+        },
+      },
+    },
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
