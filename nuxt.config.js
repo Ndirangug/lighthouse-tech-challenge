@@ -2,6 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: 'lighthouse-tech-challenge'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'lighthouse-tech-challenge',
